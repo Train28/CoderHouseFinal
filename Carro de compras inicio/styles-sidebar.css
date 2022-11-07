@@ -1,0 +1,24 @@
+#sidebar{
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    left: -200px;
+    transition: all 500ms linear;
+}
+#sidebar.active {
+    left: 0px;
+  }
+#sidebar .boton-sidebar{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+
+}
+
+
+#sidebar .boton-sidebar span{
+    border: 1px ;
+
+}
+
